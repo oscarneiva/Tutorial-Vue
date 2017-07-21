@@ -12,7 +12,7 @@ export default {
   components: {
     'ninjas': Ninjas
   },
-  data () {
+  data(){
     return {
       title: 'Ninja App'
     }
@@ -20,6 +20,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+h1{
+  color: purple;
+}
 </style>
